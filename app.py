@@ -11,7 +11,7 @@ def htop():
     name = "JS Mohammed Hafeez"  # Replace with your actual name
 
     # System username
-    username = os.getenv("jshafeez")  # Get system username
+    username = os.getenv("USER")  # Get system username
 
     # Server time in IST (Indian Standard Time, UTC+5:30)
     server_time = time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime(time.time() + 19800))  # Convert UTC to IST
